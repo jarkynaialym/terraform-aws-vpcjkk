@@ -1,5 +1,6 @@
 # terraform-aws-vpcjkk
 
+``` hcl
 
 module "vpc"{
     source = "jarkynaialym/vpcjkk/aws"
@@ -11,4 +12,6 @@ module "vpc"{
     ip_on_launch= true 
     instance_type = "t2.micro"
 }
+
+```
 
