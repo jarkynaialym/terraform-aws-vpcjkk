@@ -54,7 +54,7 @@ variable "ports" {
   description = "provide list of ports"
   type = list(object({
     from_port = number
-    to_port= number
+    to_port = number
   }))
 }
 
