@@ -1,6 +1,6 @@
 # terraform-aws-vpcjkk
 
-create main.tf file and inpute following 
+## Create main.tf file and inpute following 
 
 ``` hcl
 
@@ -21,7 +21,7 @@ module "vpc"{
 
 ```
 
-create apache.sh file and inpute a script. Eg.
+## Create apache.sh file and inpute a script. Eg.
 
 ```hcl 
 
