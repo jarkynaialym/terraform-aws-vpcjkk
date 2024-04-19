@@ -50,4 +50,8 @@ variable subnet3_name{
   description =  "provide subnet3 name"
 }
 
+variable "ports" {
+  description = "provide list of 3 ports"
+  type = list
+}
 

@@ -16,6 +16,7 @@ module "vpc"{
     subnet1_name = "hello1"
     subnet2_name = "hello2"
     subnet3_name = "hello3"
+    ports = [22, 80 , 443]
 }
 
 ```
